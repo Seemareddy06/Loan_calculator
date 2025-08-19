@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="Interactive Loan Calculator", layout="wide")
-st.title("💰 Interactive Loan Calculator")
+st.title("💰Loan Calculator")
 
 # USER INPUTS
 with st.sidebar:
@@ -80,3 +80,4 @@ st.download_button(
     file_name="amortization_schedule.csv",
     mime="text/csv"
 )
+
